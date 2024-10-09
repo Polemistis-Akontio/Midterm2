@@ -5,7 +5,7 @@ import cors from 'cors';
 const app = express();
 
 // Set your SendGrid API Key
-sgMail.setApiKey('EMPTY');  //edited out private API key that is linked to my email
+sgMail.setApiKey();  //edited out private API key that is linked to my email
 
 // Middleware
 app.use(express.json());
